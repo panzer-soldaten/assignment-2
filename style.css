@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: DM Sans;
+    box-sizing: border-box;
+}
+
+.header-section  {
+    background-color: #6F6AF7;
+    padding: 2em;
+    position: sticky;
+    top: 0%;
+}
+
+.logo h1 {
+    font-family: Delius Unicase;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header-items  {
+    display: flex;
+    gap: 6vw;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.items-list {
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    align-items: center;
+    color: #fff;
+    font-size: 1 em;
+}
+
+.input-box {
+    width: 17vw;
+    padding: 5% 3%;
+    margin-top: 1.1vh;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 15%;
+}
+
+
+
+.social-icons {
+    margin-top: 110px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-start;
+    height: 50px;
+    position: sticky;
+    top: 7.5em;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.main-section {
+    margin-left: 5.5em;
+    display: flex;
+    justify-content: start;
+    gap: 2em;
+}
+
+.main-content  {
+    width: 62%;
+    height: 54vh;
+    border-radius: 20px;
+    border: 6px solid #FFF;
+    background: #E5D8FF;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 30px;
+    padding-left: 35px;
+}
+
+.boxes {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    color: white;
+    gap: 2em;
+}
+
+.boxes div {
+    text-align: center;
+    width: 21%;
+    padding: 2.5em;
+}
+
+.box1 {
+    border-radius: 11px;
+    background: #929DFF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.box2 {
+    border-radius: 11px;
+    background: #734CF2;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.box3 {
+    border-radius: 11px;
+    background: #D288FF;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.box4 {
+    border-radius: 11px;
+    background: #000;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.customer-support {
+    position: fixed;
+    top: 85%;
+    right: 4em;
+}
+
+
+.customer-support img {
+    height: 8em;
+    float: right;
+}
+
+.info-section  {
+    margin-top: 8em;
+    margin-bottom: 2em;
+    padding: 0em 4em;
+}
+
+.info-setup  {
+    border-radius: 21px;
+    background: #483EFF;
+    padding: 2em;
+    height: 30em;
+    display: flex;
+    gap: 6em;
+}
+
+.user-info {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.user-info div {
+    padding: 2.5em 0em;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    border-radius: 22px;
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.bookmarks {
+    border-radius: 22px;
+    border: 5px solid #FFF;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.settings {
+    border-radius: 22px;
+    border: 5px solid #FFF;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.info-txt {
+    width: 70%;
+    height: 26.9em;
+    border-radius: 19px;
+    background: #FFF;
+    padding: 3em;
+}
+
+.info-txt div {
+    color: #04285A;
+    margin-top: 1.7em;
+}
+
+.info-header h1 {
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+}
+.info-name {
+    margin-top: 2em;
+    padding-left: 2em;
+    color: #04285A;
+}
+.button {
+    position: absolute;
+    right: 10em;
+}
+
+.button button {
+    padding: 1em 2.5em;
+    color: white;
+    border-radius: 9px;
+    background: #000;
+}
+.button button img {
+    position: relative;
+    top: 3px;
+}
+
+.code-image img {
+    width: 27vw;
+    height: 52vh;
+}
+
+
+
+.customer-Suppport img {
+    height: 8em;
+}
+
+.social-icons img {
+    width: 50px;
+    /* height: 100px; */
+}
+
+div {
+    display: block;
+}
+
+
+
